@@ -1,0 +1,62 @@
+h1 {
+color: black;
+font-family: Agatha_Caroline;
+text-align: center;
+}
+
+body {
+background-color: white;
+font-family: Courier New;
+}
+
+a {
+font-family: Courier New;
+font-weight: bold;
+color: black;
+padding: 10px;
+text-align: right;
+}
+
+img {
+height: 150px; width: 150px;
+border-radius: 15px;
+padding: 10px;
+}
+
+div {
+border: solid 10px red;
+margin: 0 10px 0px 10px;
+}
+
+@font-face {
+font-family: "Agatha_Caroline";
+src: url("./fonts/Agatha_Caroline/Agatha_Carolinevfc.eot");
+src: url("./fonts/Agatha_Caroline/Agatha_Carolinevfc.woff") format("woff"),
+url("./fonts/Agatha_Caroline/Agatha_Carolinevfc.otf") format("opentype"),
+url("./fonts/Agatha_Caroline/Agatha_Carolinecfc.svg#filename") format("svg");
+}
+
+.rotate
+{
+transform: rotate(-10deg);
+}
+
+.scale
+{
+width: 40%
+}
+
+#block_container {
+    display: flex;
+    
+}
+
+#bloc1, #bloc2
+{
+    display:inline;
+}
+
+.featurelist
+{
+margin: 0 20px 20px 20px;
+}
