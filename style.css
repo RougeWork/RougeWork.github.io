@@ -4,17 +4,36 @@ font-family: Agatha_Caroline;
 text-align: center;
 }
 
-body {
-background-color: white;
-font-family: Courier New;
+
+
+
+
+
+.header-wrap {
+border: solid 10px red;
 }
 
-a {
-font-family: Courier New;
-font-weight: bold;
-color: black;
-padding: 10px;
-text-align: right;
+.navigation-wrap {
+border: solid 10px orange;
+
+width : 300px;
+}
+
+.page-list-wrap {
+border: solid 10px pink;
+
+}
+
+.logo {
+border: solid 10px yellow;
+height : 200px;
+width : 200px;
+
+}
+
+.images-gallery-wrap {
+border: solid 10px green;
+
 }
 
 img {
@@ -23,9 +42,9 @@ border-radius: 15px;
 padding: 10px;
 }
 
-div {
-border: solid 50px gray;
-margin: 0 10px 0px 10px;
+.body {
+display : flex;
+border: solid 10px blue;
 }
 
 @font-face {
@@ -36,27 +55,3 @@ url("./fonts/Agatha_Caroline/Agatha_Carolinevfc.otf") format("opentype"),
 url("./fonts/Agatha_Caroline/Agatha_Carolinecfc.svg#filename") format("svg");
 }
 
-.rotate
-{
-transform: rotate(-10deg);
-}
-
-.scale
-{
-width: 40%
-}
-
-#block_container {
-    display: flex;
-    
-}
-
-#bloc1, #bloc2
-{
-    display:inline;
-}
-
-.featurelist
-{
-margin: 0 20px 20px 20px;
-}
